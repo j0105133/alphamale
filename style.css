@@ -56,7 +56,10 @@
     .third-line {
   
       display: block;
+color:black;
+      text-decoration: none;
     }
   
   
   }
+
