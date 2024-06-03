@@ -1,0 +1,58 @@
+.btn-outline-success {
+    color: black;
+    border-color: black;
+  
+  }
+  
+  .btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: #e704bd;
+    border-color: var(--bs-btn-hover-border-color);
+  }
+  
+  footer {
+    background-color: #dbdbdb;
+    color: black;
+  
+  
+  }
+  
+  .first-line {
+    border-bottom: 1px solid #d2c9c1;
+  }
+  
+  .second-line a {
+    color: black;
+    text-decoration: none;
+  
+  }
+  
+  .second-line a:hover {
+    color: #e704bd;
+  
+  }
+  
+  .third-line {
+    display: none;
+  
+  }
+  
+  @media screen and (max-width:48rem) {
+    .first-line {
+      text-align: center;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      border-bottom: 1px solid #d2c9c1;
+  
+    }
+  
+  }
+  
+  @media screen and (max-width:48rem) {
+    .third-line {
+  
+      display: block;
+    }
+  
+  
+  }
