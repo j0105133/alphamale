@@ -9,9 +9,12 @@
     background-color: #e704bd;
     border-color: var(--bs-btn-hover-border-color);
   }
-  
+  nav{
+    background-color:  #737373;
+    color: black;
+  }
   footer {
-    background-color: #dbdbdb;
+    background-color: #737373;
     color: black;
   
   
