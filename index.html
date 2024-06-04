@@ -11,59 +11,44 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 
 </head>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+
+    <a class="navbar-brand" href="index.html"><img src="./image/logo.png" width="50" height="24"
+        class="d-inline-block align-text-top"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link active" aria-current="page">Intro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="notice.html">Notice</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Review</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="qna.html">QnA</a>
+        </li>
+
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
 
-      <a class="navbar-brand" href="#"><img src="./image/logo.png" width="50" height="24"
-          class="d-inline-block align-text-top"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">NEW</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">NAVITEM</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">NAVITEM</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">NAVITEM</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">NAVITEM</a>
-          </li>
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              WOMEN
-            </a>
-          <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-            
-          </li>-->
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
   <div id="carouselExampleIndicators" class="carousel slide">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -118,7 +103,7 @@
     <div class="row">
       <div class="col-md-4 col-sm-12 pb-3">
         <div class="card" style="width: 18rem;">
-          <img src="./image/item1.jpg" class="card-img-top" alt="...">
+          <img src="./image/item11.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text text-center">
               아미노산의 이종인 아르기닌은 체내에 질산화문(NO)로 변환되는데, 이질산화물은 혈관을 확장시켜 혈류를 증가시키는 역할을 합니다.
@@ -128,7 +113,7 @@
       </div>
       <div class="col-md-4 col-sm-12  pb-3">
         <div class="card" style="width: 18rem;">
-          <img src="./image/item2.jpg" class="card-img-top" alt="...">
+          <img src="./image/item3.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text text-center ">남기새에는 여러가지 생리 활성성분이 포함되어있으며 이 성분들은 테스토스테론 수준을 증가시키고, 항상화,향미 생물, 항염등의 효과를
               보요줍니다.
@@ -138,7 +123,7 @@
       </div>
       <div class="col-md-4 col-sm-12 pb-3">
         <div class="card" style="width: 18rem;">
-          <img src="./image/item3.jpg" class="card-img-top" alt="...">
+          <img src="./image/item4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text text-center">야관문에는 아카린(icariin)이라는 플로보노이드가 포함되어있으며 아카린은 PDES를 억제하여 장직도를 개선하는데 중요한 역학을
               합니다.</p>
@@ -162,11 +147,9 @@
     </div>
     <div class="row second-line pt-5 pb-5 col-md-3 col-sm-12">
       <div class="col">KOREA</div>
-      <div class=" col"><a href="">Email Sign-up</a></div>
-      <div class="col"><a href="">Contact Us</a></div>
+      <div class=" col"><a href="">Email</a></div>
+      <div class="col"><a href="">Location</a></div>
       <div class="col"><a href="">Follow Us</a></div>
-
-
     </div>
     <div class=" third-line pt-5 pb-5 text-center">
       <a href="https://m.qoo10.jp/g/1099119570" class="japansite"> Ship to : JAPAN</a>
@@ -177,3 +160,27 @@
 </footer>
 
 </html>
+<!-- Modal -->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">공지사항</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        아직 리뷰 페이지는 준비중입니다
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="navigateToPage()">QnA보기</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  function navigateToPage() {
+    window.location.href = 'qna.html';
+  }
+</script>
