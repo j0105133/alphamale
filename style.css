@@ -78,3 +78,95 @@ footer {
 
 
 }
+.footer-secondbox{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.first-box{
+  display: flex;
+  justify-content: space-between;
+}
+.first-box-right{
+  align-content: center;
+}
+.phone_area{
+  display: flex;
+
+}
+.left-second-box{
+  margin-right: 30px;
+  
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.first-box-left {
+  flex: 1 1 auto;
+  margin: 10px;
+  
+}
+
+.first-box-right {
+  flex: 1 1 auto;
+  margin: 10px;
+  margin-right: auto; 
+}
+
+
+
+.first-line, .second-line {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.second-line {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  .first-box-left, .first-box-right {
+      flex: 1 1 100%; /* 화면 크기가 768px 이하일 때는 100% 너비로 설정 */
+      margin: 10px 0;
+  }
+  .cus-center{
+    padding-top: 20px;
+  padding-bottom: 20px;
+  
+
+  }
+}
+
+/* 추가 스타일 */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
